@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <script type="text/javascript" src="java/scripts.js"></script>
+      <link href="css/styles.css" rel="stylesheet">
+      <link href="html/index.html" rel="html1"
+      <meta charset="utf-8">
+      <title>Our Blue Planet</title>
+
+    <style>
+      h1 {
+        position: center;
+        color: #0B5345
+        bakground color: #FCF3CF
+        }
+    </style>
+
+  </head>
+  <body>
+    <div id="wSpace3"></div> <!--div separator-->
+    <br>
+      <br>
+        <br>
+      <div class="container5" class="col-med-12 col-sm-12">
+        <div class="row">
+          <h1>About Us</h1>
+            <p> Hi! Well, let's start with the introductions! My name is Iris and I'm an UCL postgraduate in MSc in Countering Organised Crime and Terrorism.
+              Currently an Operational Manager at a cybersecurity start up. This is my first website, and I have built it around something that I have feel very passionate about.
+              Feel free to drop me a message!</p>
+        </div>
+      </div>
+
+
+      <div id="wSpace3"></div> <!--div separator-->
+      <!-- Load font awesome icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- The social media icon bar -->
+      <div class="icon-bar">
+        <a href="https://www.facebook.com/be4theflood/" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/beforethefiood?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.beforetheflood.com/act/" class="google"><i class="fa fa-google"></i></a>
+        <a href="https://www.linkedin.com/pulse/before-flood-leonardo-dicaprio-doc-premiered-national-patrick-carr/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/watch?v=6UGsRcxaSAI" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div>
+
+      <div class="container2" onclick="myFunction(this)" onclick="openNav()"> <!--on click hamburguer animation-->
+        <button class="openbtn" class="col-med-12 col-sm-3" onclick="openNav()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+
+      <div id="mySidebar" class="sidebar"> <!--collapsable sidebar menu-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html" href="#page title">Home</a>
+        <a href="index.html" href="#ec">Info</a>
+        <a href="index.html" href="#involved">Get involved</a>
+        <a href="index2.html" href="#About">About</a>
+      </div>
+
+      <div class="container">
+        <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+        </form>
+      </div>
+
+  </body>

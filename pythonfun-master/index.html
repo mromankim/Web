@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+      <link rel= "stylesheet" type= "text/css" href= "static/css/styles.css">
+      <meta charset="utf-8">
+      <title>Our Blue Planet</title>
+  </head>
+
+  <body>
+      <div id=header; class="container1" class="col-med-12 col-sm-12">
+        <div class="row1">
+          <h1 id="page title"> Our Blue Planet </h1>
+            <h2> Hearts in The Sky </h2>
+
+            <!-- Load font awesome icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- The social media icon bar -->
+            <div class="icon-bar">
+              <a href="https://www.facebook.com/be4theflood/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/beforethefiood?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.beforetheflood.com/act/" class="google"><i class="fa fa-google"></i></a>
+              <a href="https://www.linkedin.com/pulse/before-flood-leonardo-dicaprio-doc-premiered-national-patrick-carr/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/watch?v=6UGsRcxaSAI" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+
+            <!--on click hamburguer animation-->
+            <div class="container2" onclick="myFunction(this)" onclick="openNav()">
+              <button class="openbtn" class="col-med-12 col-sm-3" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <!--collapsable sidebar menu-->
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#page title">Home</a>
+              <a href="#ec">Info</a>
+              <a href="#involved">Get involved</a>
+              <a href="index2.html">About</a>
+            </div>
+
+            <!--header background image-->
+            <div id= firstheader; class="col-md-12 col-sm-12">
+              <img id=earth src="nasa.jpg" alt="Sahara Desert from Space" width="100%" height="100%">
+            </div>
+
+            <div class="container4" id="ClimateChangeAPI" style="width:100%;height:400px;">
+              <script src="http://climatedataapi.worldbank.org/climateweb/rest/v1/country/type/var/start/end/ISO3"></script>
+            </div>
+
+            <!--collapsibles-->
+            <h1>Environmental Impact</h1>
+              <button class="collapsible" id="ec">Meat Consumption</button> <!--collapsible textarea-->
+                <div class="content">
+                  <p> The concepts of open market and international borders have brought great value to everyday life. However, increased consumption and need for immediate products has permanently changed the way
+                  we do production. Unsustainable meat production is the biggest factor that contributes to environmental impact and ultimately climate change. The consumer now holds responsibility for their choices
+                  and should embrace knowledge and information on the impact of their market behaviour. What is asked for is delivered, at great cost.</p>
+                </div>
+              <button class="collapsible">Fossil Fuel</button>
+                <div class="content">
+                  <p>A boom in technological development and a shift in populational movement has taken its toll on the use of cheap and ultimately dirty energy. The world has been gifted with the greatest sources
+                    of energy, from the sky to the water, energey and power is everywhere waiting to be harnest. A shift to green energy has been recently seen in societies such of Norway. However, a great change
+                    in the political mindset is still very much required. Your choices, as a consumer, voter and citizen define the future of energy.</p>
+                </div>
+              <button class="collapsible">Waste</button>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+            <!--filler paragraph-->
+            <div id="inter" class="container-fluid">
+              <div class="col-md-9 col-sm-12">
+                <img id=saveplanet class="col-md-9 col-sm-12" src="impact.jpg" alt="protest sign" width="70%" height="100%">
+                  <div id="wSpace1"></div> <!--div separator-->
+                <div id=saveplanetbox class="col-md-3 col-sm-3" width= 30% height=100%></div>
+                  <p id=saveplanettext>Climate change surpasses the slight inconvenience of the temperature variations. The impact extends massively to numerous communities around the world.
+                  <br> <br> <br> It is our responsibility as citizens and consumers to be informed and demand accountability when it comes to production impact over world's sustainability and human rights.
+                  <br> <br> <br> Deciding to take small steps in your daily live might be the difference that we are all in need for. </p>
+                </div>
+              </div>
+
+            <div id="wSpace2"></div> <!--div separator-->
+
+            <h1>How to Get Involved</h1> <!--how to get involved-->
+              <div class="container3" id="involved">
+                <div class="row">
+                  <div class="column">
+                    <img src="ecodiet.jpg" alt="eco diet" class="image" class="col-med-3 col-sm-12" width="100%" height="100%">
+                      <div class="overlay">
+                      </div>
+                  </div>
+                  <div class="column">
+                    <img src="community.jpg" alt="community" class="image" class="col-med-3 col-sm-12" width="100%" height="350px">
+                      <div class="overlay">
+                      </div>
+                  </div>
+                  <div class="column">
+                    <img src="informed.jpg" alt="informed" class="image" class="col-med-3 col-sm-12" width="100%" height="350px">
+                      <div class="overlay">
+                        <div class="text">
+                          <ul>Small Changes for a Significant Impact: <br>
+                            <br>
+                              <li>Start in your own Home - Be conscious when disposing your waste, when taking long showers or when leaving lights on.
+                              Consider a meat reduced diet, and choose to buy in season local produce.</li>
+                            <br>
+                              <li>Join your community - Demand green policies and ones that will have a sustainable impact in the generations to come.</li>
+                            <br>
+                              <li>Keep informed - Opt to understand the impact of your choices over far distanced communities.
+                            <br>For instance: Did you know that the avocado trend is preventing communities in Chile from accessing drinkable water? </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- who we are-->
+                <div class="about us">
+                  <div class="row"></div>
+                  <div class="col-md-6 col-sm-6"></div>
+                </div>
+
+                <!--sign up to our Newsletter-->
+                <form action="action_page.php">
+                  <div class="container4" id="About">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Take part in our Community</p>
+                  </div>
+
+                <div class="container" style="background-color:white">
+                  <form method="post" action="/signup">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <label>
+                  <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                    </label>
+                </div>
+
+                <div class="container">
+                  <input type="submit" value="Subscribe">
+                </div>
+              </form>
+                <script type="text/javascript" src="static/java/scripts.js"></script>
+  </body>
