@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "marketing-int",
+  "private_key_id": "3063a6f59b89c14b97e919242ef90f4ae0376cf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8pWGHKZdlVxq7\nKHmquNwUj2A1R/fDMRUnwy6i7j/nv2UJdS/I24mceZMP7h0UQi1oPzvo835ISKTL\nv7EzQ4witdOE7PSBADc+4dl2kQ04HNJ/ucjWqmsS0UNVxkzf5hnqQnD9zl1BXMBx\nJWutxgBqafZCeHg8pO5K6T2lezur+zY6jfJAznYLsg5SJcmlr3I+j+fxV5K767nN\npidEhcL5jozk2JpEiEZoFdZ0CXu3sUbX8Sr2869g4gC6bzJWHbusm3lTmttZRFPB\nPxSHlq8NnkrdVaVR0K1ayzuvWGQ+RTECDF89wqWFh2RHNzhDKfMakUBYDOnxv+1q\n2kfJ+hZXAgMBAAECggEAKC149haPng/NK6tVLl0s0lwu+2oWhMYBYXSajCz+A1eq\nJzeEM90+E8t43N2z58qobRl6owSpErAWGSb8kJSEVigvopHtCUSIf6YOcMg37omE\n85sYAVBOebWEB9KyMMWLI29/LS80gWVFv1Ne+aXAFOn4fvO1eAUQk3fVn1b9wITk\nxGx/7WPumWhV3ROXnItODmf04UHlegOde4OuG7BF9AqLRYkhxZ1CQyz28aSiredf\n+8a/BjtBnlmQ1fntzTpqhFOQtQYkky2fGw4kahBQAgsJXKoQ9l2d119FTggvG+yI\nKz97txIWnRvcaDJMhwDvauY50FPWOtLI2x6J5fz6wQKBgQDiDFp1LSp8BwDem+ww\nRhfsRdxTmyq1nsgoAmiJLA579ljLky3WQEcA2oLkx+OyUzA9cyDVtg4U3Z+Pxxd0\n6dEr0w14nYNwJkN9OnpicykY1SsDx8V8OL61rCEo7ZBqS2TTH4Hg0O1+Vv/jqwO/\ngROnrCrgBW4JSDgesPZlxVJeBwKBgQDVpFQztz4TYJlIjlNWPmo/VAnB32xPKH18\nKvVAfvvQamLGoui7v+YCrLsSRWkXXhVztlfkn5pyK5sUHj776DSA6CcE2HJJPqCw\nzjNyXDywZ5EcUbHN5l2jOTCbxmmS8fdKfAXMnq+1Ac5Ody0vl2ZTbkvhEIbqE8cy\n8RH5C2NxMQKBgGcTMvxTiBfeKatYdi7dB3OZt4n4K1V9/c8gqgJCsKgeAQdzKWeV\nD8t32E/yRgW+oTSkFsjcpzckh+nL4wpQxCyzpGTnjlPJXuTvkXbrBEZqjZ6/rXGj\nfnLg9o3vJfcSQftzVonpOyJtEWoDRUZB2XCPtU1JrI9W+yAjmXd2rsRpAoGADvCh\n7sfmsGY18ev6CfLtbSZMVGFyaoqzU8aRRgRbSbTW2Xs0+UQvKoq3vkxaUAcFSwU6\nWkOLAmboPlzrHKSdX1JcwCr+uv6FMDgLQvkOSWvEqw1PeM2eSLbMHmieo2cGWxAX\nO7rxIKBStAwDfeuBfV4eMkv8k0v0xywyjI7uUlECgYEAvXUXQMU9DJa3hSxEaipO\nNGDKF7CD1errnkhZdNJ1yC2bKeBOhdAfrWrJe57ah1v9hJaJKRvKzsJkVQBntsTB\nqLRCVX7N5mt3eZNRB3hRFi09zAO7bdaG8QVCfqADeh+Gezsqsq4WbFXR1jKpmtFV\njNQBsstWi3Kkb6nPnSmoXTo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "datalab@marketing-int.iam.gserviceaccount.com",
+  "client_id": "107980156296281732390",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datalab%40marketing-int.iam.gserviceaccount.com"
+}
