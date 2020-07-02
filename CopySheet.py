@@ -1,5 +1,6 @@
 import sys
 sys.path.insert(0, r'C:\Users\mromankiewic\AppData\Local\Programs\Python\Python37\Lib\site-packages')
+sys.path.insert(0, r'C:\Users\mromankiewic\AppData\Local\Programs\Python\Python37')
 import xlwings as xw
 from datetime import date
 from dateutil.relativedelta import relativedelta
@@ -9,16 +10,18 @@ from dateutil.relativedelta import relativedelta
 # today = date.today()
 # week= "CW"+ str(today.isocalendar()[1])
 # monday = date.today() + relativedelta(days=-4)
-monday = date.today() + relativedelta(days=0)
+monday = date.today() + relativedelta(days=-2)
 year, week_num, day_of_week = monday.isocalendar()
 thisweek = "CW"+ str(week_num)
+a = ""
 
-path1 = "N:/Region Management/00 Markets/CP&S/Forecast/Financial Forecast/Weekly Financial FC/2020/" +\"2020" + "" + str(thisweek)+\
-       str(monday.strftime("%Y%m%d")) + "" + "Weekly Financial Forecast" + ""+ str(thisweek) + ""
+path1 = "C:/Users/mromankiewic/Desktop/wffc" + \
+        "2020" + a + str(thisweek) + \
+        str(monday.strftime("%Y%m%d")) + a + "Weekly Financial Forecast" + a + str(thisweek) + a
 
-path2 = ['SE', 'UK', 'ES', 'FR', 'IT', 'AT','BE', 'DE', 'PL', 'CZ']
-path0 = "N:/Region Management/00 Markets/CP&S/Forecast/Financial Forecast/Weekly Financial FC/2020/" +\"2020" + "" + str(thisweek)+\
-"2020" + "" + "Master Case" + "" + str(thisweek) + ".xlsx"
+path0 = "C:/Users/mromankiewic/Desktop/wffc" + \
+        "2020" + a + str(thisweek) + \
+        "2020" + a + "Master Case" + a + str(thisweek) + ".xlsx"
 
 #OPEN WORKBOOKS
 wb0 = xw.Book(path0)
